@@ -31,25 +31,11 @@ body {
 
 /* removed 'background-color: #333;' from body */
 
-@media (min-width: 601px) {
-    body {
-      color: #fff;
-      text-align: center;
-      text-shadow: 0 1px 3px rgba(0,0,0,.5);
-      box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-      background-attachment: fixed;
-      background-color: #333;
-      background-image: url('assets/images/Cover-Saguaro-Sunset@High.jpg'); 
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-    }
-}
 
-@media (max-width: 600px) {
+
+
+
+@media (orientation: portrait) {
     body {
       color: #fff;
       text-align: center;
@@ -62,6 +48,42 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: auto 100%;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 3px rgba(0,0,0,.5);
+      box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+      background-attachment: fixed;
+      background-color: #333;
+      background-image: url('assets/images/Cover-Saguaro-Sunset@iOS.jpg'); 
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: 100% auto;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 3px rgba(0,0,0,.5);
+      box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+      background-attachment: fixed;
+      background-color: #333;
+      background-image: url('assets/images/Cover-Saguaro-Sunset@High.jpg'); 
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
     }
