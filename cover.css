@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background: url("assets/images/Cover-Saguaro-Sunset@High.jpg");
-  background-repeat:; no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed; 
   -webkit-background-size: cover;
