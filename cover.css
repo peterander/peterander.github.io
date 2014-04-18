@@ -48,9 +48,9 @@ body {
 
 }
 @media all and (max-width: 500px) {
-    body {background-image:url('assets/images/Cover-Saguaro-Sunset@iOS.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
+    body {
+      background-image:url('assets/images/Cover-Saguaro-Sunset@iOS.jpg');
+      -webkit-background-size: 900px 1200px;
     }
 }
 
