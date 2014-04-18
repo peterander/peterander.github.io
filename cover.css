@@ -27,7 +27,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url('assets/images/Cover-Saguaro-Sunset@High.jpg') no-repeat center center fixed; 
+  background: url("assets/images/Cover-Saguaro-Sunset@High.jpg");
+  background-repeat:; no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
