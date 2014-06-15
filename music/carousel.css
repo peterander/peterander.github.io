@@ -148,7 +148,7 @@ body {
 
 @media (max-width: 992px) {
 .carousel-inner > .item > img {
-  width: 1200px;
-  height: 500px; 
+  min-width: 1200px;
+  min-height: 500px; 
   }
 }
