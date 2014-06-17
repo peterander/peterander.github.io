@@ -31,13 +31,18 @@ body {
   padding-left: 15px;
 }
 
-/* make navbar opaque */
-/*
+/* make navbar translucent */
+
 .navbar {
    background-color: rgba(0, 0, 0, 0.5);
    background: rgba(0, 0, 0, 0.5);
 }
-*/
+
+/* make navbar brand more visible */
+
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
