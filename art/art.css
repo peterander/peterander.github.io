@@ -6,6 +6,13 @@ body {
   padding-top: 50px;
   margin-bottom: 60px;
 }
+
+/* make navbar brand more visible */
+
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
+
 .art-heading {
   padding: 40px 15px;
   text-align: center;
