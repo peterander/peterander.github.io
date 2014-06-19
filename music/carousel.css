@@ -56,6 +56,16 @@ color: #fff;
 .carousel-caption {
   z-index: 10;
 }
+.carousel-caption .btn-default {
+color: #000;
+background-color: rgba(255, 255, 255, 0.5);
+border-color: #ccc;
+}
+.carousel-caption .btn-default:hover {
+color: #fff;
+background-color: rgba(0, 0, 0, 0.5);
+border-color: rgba(0, 0, 0, 0.5);
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -70,7 +80,6 @@ color: #fff;
   height: 250px;
   max-width: none;
 }
-
 
 
 /* MARKETING CONTENT
