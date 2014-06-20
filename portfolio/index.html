@@ -8,13 +8,13 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
-    <title>Art</title>
+    <title>Jumbotron Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="art.css" rel="stylesheet">
+    <link href="jumbotron.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,72 +39,55 @@
           </button>
           <a class="navbar-brand" href="../index.html">PeterAnder</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">Art</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                      <li><a href="../portfolio/index.html">Portfolio</a></li>
-                      <li class="divider"></li>
                       <li><a href="../travels/index.html">Travels</a></li>
                       <li><a href="../music/index.html">Music</a></li>
+                      <li><a href="../art/index.html">Art</a></li>
                     </ul>
                 </li>
               </ul>
-        </div><!--/.nav-collapse -->
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Portfolio</h1>
+        <p>A list of my favorite web development projects.</p>
       </div>
     </div>
 
     <div class="container">
-
-      <div class="art-heading">
-        <h1>Art</h1>
-        <p class="lead">Objects.</p>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Travels</h2>
+          <p>A single page responsive site that lists countries I have visited. Includes links to photos and sounds specific to each place.</p>
+          <p><a class="btn btn-default" href="../travels/index.html" role="button">View project &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Music</h2>
+          <p>A tryptic piece highlighting three instruments - 12-string guitar, banjo, and electric guitar. Plans to include sound samples for each and links to instrument-specific pages.</p>
+          <p><a class="btn btn-default" href="../music/index.html" role="button">View project &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Art</h2>
+          <p>A black and white showcase of simple black pen drawings. Images are displayed in responsive large thumbnails.</p>
+          <p><a class="btn btn-default" href="../art/index.html" role="button">View project &raquo;</a></p>
+        </div>
       </div>
-      
-      <!-- begin thumbs -->
-      
-      <div class="row">
-        <div class="col-xs-12 col-md-4">
-          <a href="#" class="thumbnail">
-            <img alt="pinecone" src="../assets/images/artpinecone.jpg">
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <a href="#" class="thumbnail">
-            <img alt="vertebra" src="../assets/images/artvertebra.jpg">
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <a href="#" class="thumbnail">
-            <img alt="pencap" src="../assets/images/artpencap.jpg">
-          </a>
-        </div>
-      </div>   
 
-      <div class="row">
-        <div class="col-xs-12 col-md-4">
-          <a href="#" class="thumbnail">
-            <img alt="keyboard" src="../assets/images/artkeyboard.jpg">
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <a href="#" class="thumbnail">
-            <img alt="phonewires" src="../assets/images/artphonewires.jpg">
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <a href="#" class="thumbnail">
-            <img alt="lightbulb" src="../assets/images/artlightbulb.jpg">
-          </a>
-        </div>
-      </div>  
-      
-      <!-- end thumbs -->
+      <hr>
 
-
-    </div><!-- /.container -->
+      <footer>
+        <p>&copy; PeterAnder 2014</p>
+      </footer>
+    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -112,6 +95,5 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="../dist/js/bootstrap.min.js"></script>
-    <script src="../assets/js/docs.min.js"></script>
   </body>
 </html>
